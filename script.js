@@ -9,13 +9,13 @@ console.log(result)
 
 function Status(BMI){
     
-    if(BMI<18.5) {
+    if(bmi<18.5) {
         return "لديك نقص في الوزن";
-    } else if(BMI>=18.5){
+    } else if(bmi < 18.5){
         return "وزنك صحي"
-    } else if (BMI<25) {
+    } else if (bmi >  18.5 && bmi <= 25  ) {
         return "وزنك صحي" 
-    } else if (BMI>=25) {
+    } else if (bmi >=25 ) {
         return "ديك زيادة في الوزن"
     }
 
